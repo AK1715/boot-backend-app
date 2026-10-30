@@ -12,7 +12,7 @@ public class HomeController {
     @GetMapping("/")
     public ResponseEntity<String> Home()
     {
-        return ResponseEntity.ok("Your Backend is up and Running🚀✅");
+        return ResponseEntity.ok("Your Spring Boot Backend is up and Running On Vercel🚀✅");
     }
 
 }
